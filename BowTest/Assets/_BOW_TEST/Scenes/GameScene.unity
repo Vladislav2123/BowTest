@@ -398,7 +398,7 @@ MonoBehaviour:
   - {fileID: 6685903834954368560, guid: d2e20ca87a0b2634398f4360167b353c, type: 3}
   _restartDelay: 1
   _fading: 1
-  _isTesting: 1
+  _isTesting: 0
   _testingLevel: 1
 --- !u!4 &137115874
 Transform:

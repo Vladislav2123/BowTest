@@ -1262,7 +1262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5911913276565872473, guid: 1551e56083f62e848b848911e0143c2a, type: 3}
       propertyPath: _startState
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6043184707706234619, guid: 1551e56083f62e848b848911e0143c2a, type: 3}
       propertyPath: m_ConnectedAnchor.x
