@@ -19,7 +19,7 @@ public class LevelsManager : MonoBehaviour
     [Inject] private UIFade _uiFade;
 
     private const string COMPLETED_LEVELS_KEY = "CompletedLevels";
-    private const int LOOP_LEVEL_INDEX = 0;
+    private const int LOOP_LEVEL = 1;
 
     public int CurrentLevelNumber {get; private set;}
     public Level CurrentLevel {get; private set;}
@@ -71,7 +71,7 @@ public class LevelsManager : MonoBehaviour
 #endif
 
         if (CurrentLevelNumber < _levels.Length) PlayerPrefs.SetInt(COMPLETED_LEVELS_KEY, CurrentLevelNumber + 1);
-        else PlayerPrefs.SetInt(COMPLETED_LEVELS_KEY, LOOP_LEVEL_INDEX);
+        else PlayerPrefs.SetInt(COMPLETED_LEVELS_KEY, LOOP_LEVEL);
     }
 
     private void LoadLevel(int levelNumber)
